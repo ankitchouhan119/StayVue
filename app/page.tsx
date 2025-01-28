@@ -12,7 +12,7 @@ import ListingCard from "./components/molecules/listings/ListingCard";
 import Partners from "./components/molecules/partners/Partners";
 import NewsLater from "./components/molecules/Pages/NewsLater";
 
-const Home = async ({}) => {
+const Home = async ({ }) => {
   const currentUser = await getCurrentUser();
   const listings = await getListings({ userId: undefined });
 
@@ -49,8 +49,8 @@ const Home = async ({}) => {
             </div>
           </div>
           <div className="w-full flex justify-center my-5 items-center">
-            <Coursel showDots autoPlay>
-              {listings.map((listing: any) => (
+            <Coursel showDots autoPlay infinite={false}>
+              {listings.map((listing) => (
                 <ListingCard
                   currentUser={currentUser}
                   key={listing.id}
@@ -58,10 +58,8 @@ const Home = async ({}) => {
                 />
               ))}
             </Coursel>
+
           </div>
-          {/* <div className="sm:py-1 h-[80vh]">
-            <FaqPage />
-          </div> */}
           <div className="mt-[80px]">
             <p className="text-lg tracking-widest font-normal text-primary">
               Key Features

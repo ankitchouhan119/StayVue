@@ -13,8 +13,8 @@ const font = Nunito({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "StayVue",
-  description: "Stay Vue",
+  title: "TravoNest",
+  description: "TravoNest",
 };
 
 export default async function RootLayout({

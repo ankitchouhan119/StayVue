@@ -15,7 +15,9 @@ interface ImageUploadProps {
   value: string;
 }
 
-const uploadPreset = "bnlxdxxb";
+// const uploadPreset = "bnlxdxxb";
+const uploadPreset = "TravoNest";
+
 
 const ImageUpload: React.FC<ImageUploadProps> = ({ onChange, value }) => {
   const handleUpload = useCallback(

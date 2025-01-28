@@ -43,9 +43,9 @@ const footer = () => {
               Meet Us
             </div>
             <div className="flex flex-col items-start justify-center ">
-              <p className="text-gray-500 py-1">+91 9000 00009</p>
-              <p className="text-gray-500 py-1">info@stayvue.com</p>
-              <p className="text-gray-500 py-1">202 R Street New York</p>
+              <p className="text-gray-500 py-1">+91 98765 43210</p>
+              <p className="text-gray-500 py-1">support@TravoNest.com</p>
+              <p className="text-gray-500 py-1">505 M Street Palo Alto</p>
             </div>
           </div>
         </div>

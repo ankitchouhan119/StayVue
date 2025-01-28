@@ -84,10 +84,10 @@ const Users: React.FC<UsersProps> = ({ currentUser }) => {
               onClick={() => router.push("/")}
             />
           </div>
-          <div className="flex justify-around items-center ">
+          <div className="flex justify-around items-center">
             <div
               onClick={() => loginModal.onOpen()}
-              className="font-bold mr-5 "
+              className="font-bold mr-5  cursor-pointer"
             >
               Login
             </div>
